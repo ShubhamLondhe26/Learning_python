@@ -1,0 +1,4 @@
+commands
+
+*git branch "names"
+*git checkout name
