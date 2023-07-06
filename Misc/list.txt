@@ -1,0 +1,19 @@
+LIST:(enclosed by [])(built-in-function)
+list is a mutable sequence type
+list is a sequence data type which is used to store the collection of data
+list items are ordered, changeable, and allow duplicate values.
+
+Index:
+Every list with elements has a position or index. 
+Each element/item of the list can be accessed by using the index number.
+They are two types of indexing :Positive Indexing & Negative Indexing
+Note:The list of positive index always starts with 0.Hence, the first element of a list is present at index 0, not 1.
+Negative index of -1 refers to the last item, -2 to the second last item and so on.
+
+Slicing :
+You can also access the elements from a specific range.
+syntax: [ : ]
+Note:When we slice lists,start of index (included) and end (excluded)
+
+Concatenation :Using + operator
+The '+' operator can be used to concatenate two lists. It appends one list at the end of the other list and results in a new list as output.

@@ -1,0 +1,34 @@
+Decision making is required when we want to execute a code only if a certain condition is satisfied
+The if...elif...else statement is used in python for decision making
+
+1)if statement :
+Syntax --->
+if test expression :
+    statement(s)
+if the test expression gives true result then its corresponding statements gets executed otherwise that part of code gets skipped by the interpretor
+
+Note:Indentation(White space) is used to delimit the block of code
+
+2)if....else statement:
+Syntax --->
+if test expression :
+    Body of if
+else:
+    Body of else 
+
+The if...else statement evaluates test expression and will execute the body of if only when the test condition is True.
+If the condition is False, the body of else is executed. Indentation is used to separate the blocks.
+
+3)if...elif...else statement:
+if test expression:
+    Body of if
+elif test expression:
+    Body of elif
+else: 
+    Body of else
+
+The elif is short for else if. It allows us to check for multiple expressions.
+If the condition for if is False, it checks the condition of the next elif block and so on.
+If all the conditions are False, the body of else is executed.
+Only one block among the several if...elif...else blocks is executed according to the condition.
+The if block can have only one else block. But it can have multiple elif blocks.

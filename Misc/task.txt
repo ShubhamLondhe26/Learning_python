@@ -1,0 +1,2 @@
+1.wap to check the greater number taken from user 
+2.wap to find the sum of first ten even numbers

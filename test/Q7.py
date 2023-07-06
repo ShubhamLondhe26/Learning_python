@@ -1,0 +1,1 @@
+#7.Write a Python Program to Iterate Over Dictionaries Using for Loop

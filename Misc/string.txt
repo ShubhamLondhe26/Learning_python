@@ -1,0 +1,99 @@
+STRING:
+->Strings are sequence of character OR  
+Strings are arrays of bytes representing Unicode characters
+->The string type in Python is called str. 
+->Strings in Python can be created using single quotes or double quotes or even triple quotes
+->strings are ordered sequences of character data, and thus can be indexed in this way.
+->string is an immutable sequence data type
+------------------------------------------------------------------------------------------------------------
+Built-in-function len() : returns the length of a string
+------------------------------------------------------------------------------------------------------------
+Index: 
+Individual Characters in a string can be accessed using indexing
+Syntax :[] 
+Positive indexing starts from 0 and indexing from the beginning of the string. 
+Negative indexing starts from -1, and indexing starts from the end of the string.
+------------------------------------------------------------------------------------------------------------
+Slicing :
+To access a range of characters in the String, the method of slicing is used.
+syntax: [ : ]
+------------------------------------------------------------------------------------------------------------
+String Concatenation:
+String Concatenation is the technique of combining two strings.String Concatenation can be done using many ways. 
+->Using + operator 
+->Using join() method
+------------------------------------------------------------------------------------------------------------
+String formatting:String Interpolation
+is the process of substituting values of variables into placeholders in a string OR
+String formatting is a way to insert a variable or another string in a predefined string or
+String formatting is the process of infusing things in the string dynamically and presenting the string. 
+There are four different ways to perform string formatting in Python:
+
+->Formatting with % Operator:
+It is the oldest method of string formatting. 
+Here we use the modulo % operator. 
+The modulo % is also known as the “string-formatting operator”
+‘%s’ is used to inject strings similarly ‘%d’ for integers, ‘%f’ for floating-point values, ‘%b’ for binary format.
+
+->Formatting with format() string method:
+str.format()  is an improvement on %-formatting.
+Python 3.6 added a new string formatting approach called formatted string literals or “f-strings”.
+str.format()work by putting in one or more replacement fields and placeholders defined by a pair of curly braces { } into a string. 
+The value we wish to put into the placeholders and concatenate with the string passed as parameters into the format function
+
+->Formatting with string literals, called f-strings:
+The idea behind f-strings is to make string interpolation simpler.
+To create an f-string, prefix the string with the letter “ f ”. 
+The string itself can be formatted in much the same way that you would with str.format()
+
+Note : F-strings are faster than the two most commonly used string formatting mechanisms, which are % formatting and str.format().
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

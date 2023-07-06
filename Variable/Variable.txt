@@ -1,0 +1,3 @@
+* No need to declare
+* "=" is used to assign variables
+

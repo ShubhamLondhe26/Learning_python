@@ -1,0 +1,13 @@
+print("What is your name?")
+Name= input()
+print("Course Enrolled in?")
+Course= input()
+print("Course Duration?")
+Duration= input()
+print("what is your email?")
+Email= input()
+
+print("Hey",Name)
+print("Enrolled Course is ",Course)
+print("Course duration is ",Duration)
+print("Your Email is:",Email)

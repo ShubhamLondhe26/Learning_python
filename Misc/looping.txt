@@ -1,0 +1,29 @@
+There are two ways to create loops in Python: 
+with the for-loop and the while-loop
+
+for loop in python:
+>>for loops are used when you have a block of code which you want to repeat a fixed number of times. 
+>>The for-loop is always used in combination with an iterable object, like a list or a range
+>>When we have a for loop inside another for loop, it’s called a nested for loop
+
+Syntax:
+for iterator_var in sequence:
+    loop Body
+
+while loop in python:
+>>while loop is used to execute a block of statements repeatedly until a given condition is satisfied.
+>>when the condition becomes false, the line immediately after the loop in the program is executed
+
+Syntax :
+while expression:
+    statement(s)
+    
+break and continue in Python:
+>>The break statement is used to terminate the loop or statement in which it is present
+>>The continue statement is used to skip the rest of the code inside a loop for the current iteration only
+>>Loop does not terminate but continues on with the next iteration
+
+range() function:
+The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified number
+Syntax:range(start, stop, step)
+
